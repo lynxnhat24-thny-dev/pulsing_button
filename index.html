@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+    <div class="contact-button-wrap hidden"></div>
+				<div class="contact-button" id="contact-button-bottom">
+					<nav>
+				<a data-modal="modal-button-nav-0"  class="" onclick="return gtag_report_conversion('tel:0844444369')" href="tel:0844444369" style="background-color: #30BF5B">
+					
+						<img src="img/call-icon.png">
+					
+					<span style="background-color: #30BF5B"> Gọi <b>0844 444 369</b></span>
+				</a>
+				
+				<a data-modal="modal-button-nav-1"  class="" onclick="return gtag_report_conversion('https://zalo.me/tinhocnhuy')" href="https://zalo.me/tinhocnhuy" style="background-color: #00ACD4">
+					
+						<img src="img/zalo-icon.png">
+					
+					<span style="background-color: #00ACD4"> Chat qua Zalo</span>
+				</a>
+				
+				<a data-modal="modal-button-nav-2" target="_blank" class="" onclick="return gtag_report_conversion('https://m.me/bboynonoyes')" href="https://m.me/bboynonoyes" style="background-color: #0084FF">
+					
+						<img src="img/messenger-icon.png">
+					
+					<span style="background-color: #0084FF"> Chat qua Facebook</span>
+				</a>
+				
+				<a data-modal="modal-button-nav-3"  class="" onclick="return gtag_report_conversion('javascript: showContactForm()')" href="javascript: showContactForm()" style="background-color: #995aca">
+					
+						<img src="img/send-icon.png">
+					
+					<span style="background-color: #995aca"> Yêu cầu gọi lại</span>
+				</a>
+				</nav>
+			<style>
+				@media (max-width: 768px){
+					.contact-button{
+						bottom: 20px
+					}
+				}
+			</style>
+    <a class="pulsing-button">
+      <span>
+        <img src="img/messenger-icon.png" class="pulsing-button-active" />
+      </span>
+      <i class="fa fa-times" style="display:none"></i>
+    </a>
+</div>
+
+    <script src="contact-button.js"></script>
+  </body>
+</html>
